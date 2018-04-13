@@ -3,6 +3,7 @@
 	--color-footer: var(--color-nav);
 	--bg-nav: #333743;
 	--bg-footer: var(--bg-nav);
+	--bg-titulo: #0B6FB9;
 }
 
 *{
@@ -58,6 +59,28 @@ body{
 	font-size: 26px;
 	font-weight: 700;
 	text-align: center;
+}
+
+.titulo{
+	display: inline-block;
+	color: #FFF;
+	text-align: center;
+	width: 800px;
+}
+
+.referidos-h1, .referidos-h2{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: var(--bg-titulo);
+	font-size: 32px;
+	font-weight: 600;
+	height: 150px;
+}
+
+.referidos-h1 .titulo{
+	width: 450px;
+	font-weight: 800;
 }
 
 
