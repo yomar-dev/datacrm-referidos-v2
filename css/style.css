@@ -42,6 +42,24 @@ body{
 	font-weight: 600;
 }
 
+.referidos-banner{
+	background: url('../images/banner.png');
+	color: var(--bg-nav);
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	text-transform: uppercase;
+	height: 560px;
+	width: 100%;
+}
+
+.referidos-banner span{
+	margin-right: 50px;
+	font-size: 26px;
+	font-weight: 700;
+	text-align: center;
+}
+
 
 /**
  * Áreas Menú de navegación
