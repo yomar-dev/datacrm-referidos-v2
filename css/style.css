@@ -13,6 +13,18 @@ body{
 	grid-template-areas: ". nav-logo . nav-menu .";
 }
 
+.nav-menu ul{
+	display: flex;
+	justify-content: flex-end;
+}
+
+.nav-menu li{
+	list-style: none;
+	display: inline-block;
+	margin-left: 40px;
+	text-transform: uppercase;
+}
+
 
 /**
  * Áreas Menú de navegación
