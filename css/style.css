@@ -6,3 +6,21 @@
 body{
 	font-family: 'Open Sans', sans-serif;
 }
+
+.nav{
+	display: grid;
+	grid-template: 60px / 120px 160px 160px 1fr 120px;
+	grid-template-areas: ". nav-logo . nav-menu .";
+}
+
+
+/**
+ * Áreas Menú de navegación
+ */
+.nav-logo{
+	grid-area: nav-logo;
+}
+
+.nav-menu{
+	grid-area: nav-menu;
+}
