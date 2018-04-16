@@ -45,6 +45,7 @@ body{
 
 .referidos-banner{
 	background: url('../images/banner.png');
+	background-size: cover;
 	color: var(--bg-nav);
 	display: flex;
 	justify-content: flex-end;
@@ -84,23 +85,17 @@ body{
 }
 
 .referidos-beneficios{
-	box-sizing: border-box;
-	display: flex;
-	justify-content: space-between;
-	padding: 2em 1.5em;
+	display: grid;
+	grid-template-columns: 30% 30% 30%;
+	justify-content: space-evenly;
 }
 
 .beneficio{
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
-	width: 31%;
-	padding: 2em 0;
+	margin: 2em 0;
 }
 
 .beneficio img{
-	width: 420px;
-	height: 360px;
+	max-width: 100%;
 }
 
 .beneficio figcaption{
@@ -111,15 +106,21 @@ body{
 	margin-top: 20px;
 }
 
-.beneficio:nth-of-type(1){
+.primer-beneficio,
+.segundo-beneficio,
+.tercer-beneficio{
+	padding: 1.5em 0;
+}
+
+.primer-beneficio{
 	background: #F0C386;
 }
 
-.beneficio:nth-of-type(2){
+.segundo-beneficio{
 	background: #A8EBE9;
 }
 
-.beneficio:nth-of-type(3){
+.tercer-beneficio{
 	background: #DDD5D5
 }
 
