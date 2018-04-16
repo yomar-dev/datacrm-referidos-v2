@@ -198,8 +198,50 @@ body{
 	color: #FFF;
 }
 
+.referidos-footer{
+	background: var(--bg-footer);
+	color: #FFF;
+	display: grid;
+	/*grid-template-columns: repeat(6, 1fr);*/
+	grid-template-columns: 150px 1fr 1fr 1fr 1fr 150px;
+	grid-template-rows: 400px 40px;
+	grid-template-areas: ". datacrm empresa crm apps ."
+						 ". copy copy copy copy .";
+	padding: 2em 0;
+}
+
+.referidos-footer li{
+	list-style: none;
+}
+
+.referidos-footer a{
+	color: #FFF;
+	text-decoration: none;
+}
+
+.footer-titulo{
+	color: var(--bg-form);
+	font-weight: 600;
+	line-height: 50px;
+	text-transform: uppercase;
+}
+
 .destacar{
 	font-weight: bold;
+}
+
+ul.footer-links li.link{
+	line-height: 28px;
+	font-weight: 200;
+}
+
+.idiomas{
+	font-size: .9em;
+	width: 80%;
+	background: #262626;
+	border: none;
+	color: #FFF;
+	height: 28px;
 }
 
 
@@ -220,4 +262,30 @@ body{
 
 .contacto{
 	grid-area: contacto;
+}
+
+/**
+ * Áreas footer
+ */
+
+.footer-datacrm{
+	grid-area: datacrm;
+}
+
+.footer-empresa{
+	grid-area: empresa;
+}
+
+.footer-crm{
+	grid-area: crm;
+}
+
+.footer-apps{
+	grid-area: apps;
+}
+
+.footer-copy{
+	grid-area: copy;
+	font-weight: 200;
+	text-align: center;
 }
