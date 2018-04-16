@@ -4,6 +4,8 @@
 	--bg-nav: #333743;
 	--bg-footer: var(--bg-nav);
 	--bg-titulo: #0B6FB9;
+	--bg-form: #42BFAA;
+	--bg-button: var(--bg-titulo);
 }
 
 *{
@@ -124,6 +126,78 @@ body{
 	background: #DDD5D5
 }
 
+.referidos-contacto{
+	display: grid;
+	grid-template-columns: 10% 1fr 10%;
+	grid-template-areas: ". contacto .";
+	padding: 2em 0;
+}
+
+.contacto{
+	background: var(--bg-form);
+	border-radius: 10px;
+	display: grid;
+	grid-template-columns: 40% 60%;
+}
+
+.contacto-formulario{
+	box-sizing: border-box;
+	display: grid;
+	align-content: center;
+	padding: 4em;
+}
+
+.formulario{
+	display: grid;
+	grid-template-columns: repeat(12 1fr);
+	grid-template-rows: repeat(5, 50px);
+	grid-row-gap: 30px;
+	color: #FFF;
+}
+
+.form-txt{
+	background: var(--bg-form);
+	border: 1px solid #FFF;
+	border-radius: 3px;
+	box-sizing: border-box;
+	color: #FFF;
+	display: block;
+	font-size: 1.2em;
+	padding: 5px;
+	width: 100%;
+}
+
+.form-politicas{
+	display: block;
+	font-size: .8em;
+	text-align: center;
+}
+
+.form-politicas a{
+	color: #FFF;
+	cursor: pointer;
+	text-decoration: none;
+}
+
+.form-politicas a:hover{
+	text-decoration: underline;
+}
+
+.formulario .form-btn{
+	background: var(--bg-button);
+	border: none;
+	border-radius: 45px;
+	color: #FFF;
+	cursor: pointer;
+	font-size: 2em;
+	margin: 0 auto;
+	width: 60%;
+}
+
+::placeholder{
+	color: #FFF;
+}
+
 .destacar{
 	font-weight: bold;
 }
@@ -138,4 +212,12 @@ body{
 
 .nav-menu{
 	grid-area: nav-menu;
+}
+
+/**
+ * Áreas formulario
+ */
+
+.contacto{
+	grid-area: contacto;
 }
