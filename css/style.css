@@ -333,6 +333,11 @@ ul.footer-links li.link{
 	.referidos-h1 .titulo{
 		width: 300px;
 	}
+
+	.beneficio figcaption{
+		font-size: 1em;
+		padding: 0 1.4em;
+	}
 }
  
 /**
