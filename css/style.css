@@ -417,5 +417,12 @@ ul.footer-links li.link{
  * Móviles en vertical
  */
 @media (max-width: 480px) {
+	body{
+		background: red;
+	}
+
+	.nav{
+		display: none;
+	}
 
 }
