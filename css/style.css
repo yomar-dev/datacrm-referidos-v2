@@ -429,4 +429,17 @@ ul.footer-links li.link{
 		height: 280px;
 	}
 
+	.referidos-h1, .referidos-h2{
+		font-size: 16px;
+		height: 90px;
+	}
+
+	.titulo{
+		width: 90%;
+	}
+
+	.referidos-h1 .titulo{
+		width: 100%;
+	}
+
 }
