@@ -338,6 +338,11 @@ ul.footer-links li.link{
 		font-size: 1em;
 		padding: 0 1.4em;
 	}
+
+	.contacto-banner img{
+		width: 100%;
+		height: 100%;
+	}
 }
  
 /**
