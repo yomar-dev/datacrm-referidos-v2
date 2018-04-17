@@ -297,7 +297,17 @@ ul.footer-links li.link{
  * Tablets en horizonal y escritorios normales
  */
 @media (min-width: 768px) and (max-width: 1199px) {
-	
+	.nav{
+		grid-template-columns: repeat(12, 1fr);
+	}
+
+	.nav-logo{
+		grid-column: 2 / 3;
+	}
+
+	.nav-menu{
+		grid-column: 3 / 12;
+	}
 }
  
 /**
