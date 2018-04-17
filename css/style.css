@@ -417,10 +417,6 @@ ul.footer-links li.link{
  * Móviles en vertical
  */
 @media (max-width: 480px) {
-	body{
-		background: red;
-	}
-
 	.nav{
 		display: none;
 	}
@@ -451,5 +447,25 @@ ul.footer-links li.link{
 		margin: .5em 0;
 		width: 70%;
 	}
+
+
+	.contacto-formulario{
+		padding: 2em;
+	}
+
+	.formulario{
+		grid-row-gap: 10px;
+	}
+
+	.form-politicas{
+		font-size: .6em;
+	}
+
+	.formulario .form-btn{
+		font-size: 1.2em;
+		height: 35px;
+		width: 50%;
+	}
+
 
 }
