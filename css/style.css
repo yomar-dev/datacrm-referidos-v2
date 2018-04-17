@@ -353,7 +353,24 @@ ul.footer-links li.link{
  * Móviles en horizontal o tablets en vertical
  */
 @media (max-width: 767px) {
+	body{
+		background: red;
+	}
 
+	.nav-logo{
+		display: none;
+	}
+
+	.nav{
+		grid-template-areas: "nav-menu nav-menu nav-menu nav-menu nav-menu";
+	}
+	.nav-menu ul{
+		justify-content: space-around;
+	}
+
+	.nav-menu li{
+		margin-left: 0;
+	}
 }
  
 /**
