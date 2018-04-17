@@ -17,6 +17,15 @@ body{
 	font-family: 'Open Sans', sans-serif;
 }
 
+a{
+	text-decoration: none;
+	color: #fff;
+}
+
+a:hover{
+	color: var(--bg-form);
+}
+
 .nav{
 	display: grid;
 	grid-template: 60px / 120px 160px 160px 1fr 120px;
@@ -53,7 +62,7 @@ body{
 	justify-content: flex-end;
 	align-items: center;
 	text-transform: uppercase;
-	height: 560px;
+	height: 480px;
 	width: 100%;
 }
 
@@ -82,8 +91,7 @@ body{
 }
 
 .referidos-h1 .titulo{
-	width: 450px;
-	font-weight: 800;
+	width: 400px;
 }
 
 .referidos-beneficios{
@@ -204,19 +212,14 @@ body{
 	display: grid;
 	/*grid-template-columns: repeat(6, 1fr);*/
 	grid-template-columns: 150px 1fr 1fr 1fr 1fr 150px;
-	grid-template-rows: 400px 40px;
+	grid-template-rows: 320px 40px;
 	grid-template-areas: ". datacrm empresa crm apps ."
 						 ". copy copy copy copy .";
-	padding: 2em 0;
+	padding-top: 2em;
 }
 
 .referidos-footer li{
 	list-style: none;
-}
-
-.referidos-footer a{
-	color: #FFF;
-	text-decoration: none;
 }
 
 .footer-titulo{
