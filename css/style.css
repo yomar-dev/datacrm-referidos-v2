@@ -467,5 +467,15 @@ ul.footer-links li.link{
 		width: 50%;
 	}
 
+	.referidos-footer{
+		grid-template-columns: 100px 1fr 1fr 100px;
+		grid-template-areas: ". datacrm datacrm ."
+							 ". empresa empresa ."
+							 ". crm crm ."
+							 ". apps apps ."
+							 "copy copy copy copy";
+		grid-template-rows: 260px 260px 260px 260px 40px;
+	}
+
 
 }
