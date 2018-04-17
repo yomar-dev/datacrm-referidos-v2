@@ -29,7 +29,7 @@ a:hover{
 .nav{
 	display: grid;
 	grid-template: 60px / 120px 160px 160px 1fr 120px;
-	grid-template-areas: ". nav-logo . nav-menu .";
+	grid-template-areas: ". nav-logo nav-menu nav-menu .";
 	background: var(--bg-nav);
 	color: var(--color-nav);
 	line-height: 60px;
