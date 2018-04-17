@@ -371,6 +371,17 @@ ul.footer-links li.link{
 	.nav-menu li{
 		margin-left: 0;
 	}
+
+	.referidos-banner{
+		justify-content: flex-start;
+		height: 320px;
+	}
+
+	.referidos-banner span{
+		margin-right: 0;
+		margin-left: 20px;
+		font-size: 1.2em;
+	}
 }
  
 /**
