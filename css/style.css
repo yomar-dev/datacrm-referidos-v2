@@ -319,6 +319,20 @@ ul.footer-links li.link{
 		margin-left: 20px;
 		font-size: 1.4em;
 	}
+
+	.referidos-h1, .referidos-h2{
+		display: grid;
+		font-size: 28px;
+		height: 120px;
+	}
+
+	.titulo{
+		width: 600px;
+	}
+
+	.referidos-h1 .titulo{
+		width: 300px;
+	}
 }
  
 /**
